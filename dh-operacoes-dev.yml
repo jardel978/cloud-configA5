@@ -21,6 +21,6 @@ spring:
 
 message: Operações DH ambiente de DEV
 server:
-  port: ${PORT_DH_CAIXA:8080}
+  port: ${PORT_DH_OPERACOES:8080}
 moeda: Real
 notas: 10,20,50

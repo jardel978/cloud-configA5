@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:h2:mem:dh-operacoes-test
+    url: jdbc:h2:tcp://localhost/~/dh-operacoes-test
     username: sa
     password: password
     driverClassName: org.h2.Driver
@@ -18,6 +18,6 @@ spring:
 
 message: Operações DH ambiente de TEST
 server:
-  port: ${PORT_DH_CAIXA:8080}
+  port: ${PORT_DH_OPERACOES:8080}
 moeda: Real
 notas: 10,20,50
